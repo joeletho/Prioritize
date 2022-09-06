@@ -1,0 +1,13 @@
+[package]
+name = "prioritize"
+version = "0.1.0"
+edition = "2021"
+authors = ["Joel: brolgedu@gmail.com"]
+
+[[bin]]
+name = "prioritize-rs"
+path = "src/bin/main.rs"
+
+[dependencies]
+appguirs = { path = "src/appguirs" }
+
